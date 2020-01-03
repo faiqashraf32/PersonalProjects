@@ -6,10 +6,16 @@ import os.path
 
 class CADSYS:
     def login(self):
-        print("Main Menu\n")
+        import os
+        path = os.getcwd()
+        print(path)
+
+        print("Welcome to CAD. Login Screen. \n")
         uName = input("Username >> ")
         uNames = ["e1ectricpancake", "contract56", "choclateairlines95", "admin"]
-        if uName not in uNames:
+        if uName == "quit" or uName == "logout" or uName == "exit":
+            exit()
+        elif uName not in uNames:
             print("Username not found. Try again.\n")
             a.login()
         else:
@@ -17,11 +23,14 @@ class CADSYS:
             dt = now.strftime("%d/%m/%Y %H:%M:%S")
             print(uName, " Logged in successfully. Current log on: ",dt,"\n")
             # cop or crook
-            coc = input("What do you want to do? 1 for cop, 2 for criminal. ")
+            coc = input("What do you want to do? 1 for cop, 2 for criminal. 3 to quit. ")
             if coc == "1":
                 a.cop()
             elif coc == "2":
                 a.criminal()
+            elif coc == "3":
+                exit()
+                
     def cop(self):
         print("Welcome to the cop screen you upstanding law person\n")
         # cop screen
@@ -110,13 +119,9 @@ class CADSYS:
             a.criminal()
         elif coc == "4":
             # switch to cop mode
-            print(" ")
-            print(" ")
-            print(" ")
-            print(" ")
-            print(" ")
+            for x in range(1, 50):
+                print(" ")
             a.cop()
-
         elif coc == "5":
             # quit
             exit()
