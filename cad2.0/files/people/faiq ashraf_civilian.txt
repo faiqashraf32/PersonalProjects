@@ -1,7 +1,0 @@
-
-Name: faiq ashraf
-Gender: Male
-Age: 20
-Date of birth: 2 / 2 / 1999
-License Status: Valid
-Wanted Status: Not wanted

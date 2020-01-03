@@ -33,7 +33,63 @@ class CADSYS:
                 
     def cop(self):
         print("Welcome to the cop screen you upstanding law person\n")
-        # cop screen
+        print("To look up a civilian in the database, enter 1.\nTo look up a license plate in the database, enter 2.\nTo switch to criminal mode, enter 3.\n To quit the program, enter 4.\n")
+        choice = input("Make a decision >> ")
+        # path for files:
+        # /Users/faiqashraf/Desktop/github site/PersonalProjects/cad2.0/files/cars/MAKE_MODEL_civ_car.txt
+        if choice == "1":
+            # look up civilian
+            name = input("Who are we looking up in the database? >> ")
+            # first, we need to determine what the file is called, luckily, we know the path to be:
+            # /Users/faiqashraf/Desktop/github site/PersonalProjects/cad2.0/files/people/NAMEOFCRIMINAL_criminal.txt
+            # so lets tell the computer to look there:
+            filename = "files/people/" + name + "_civilian.txt"
+            # print("File name is = " + filename)
+            # now lets see if a file exists with that person
+            try:
+                f = open(filename)
+                # great we found it, lets reveal its contents
+                s = f.read() # read file contents
+                print(s) # print file contents
+            except IOError:
+                # no file found, sad, so sad
+                print("No such record was found. Try again.\n")
+                a.cop()
+            finally:
+                # close the file. release from memory
+                f.close()
+                a.cop()
+
+        elif choice == "2":
+            # look up license plate
+            # get license plate number
+            plate = input("What is the license plate number? >> ")
+            # tell the computer where to look for the record
+            filename = "files/cars/" + plate + "_civ_car.txt"
+             # now lets see if a file exists with that person
+            try:
+                f = open(filename)
+                # great we found it, lets reveal its contents
+                s = f.read() # read file contents
+                print(s) # print file contents
+            except IOError:
+                # no file found, sad, so sad
+                print("No such record was found. Try again.\n")
+                a.cop()
+            finally:
+                # close the file. release from memory
+                f.close()
+                a.cop()
+
+        elif choice == "3":
+            # switch to criminal mode
+            for x in range(1, 50): # clear the console
+                print(" ")
+            a.criminal()
+            pass
+        elif choice == "4":
+            # exit the program
+            exit()
 
 
     def criminal(self):
@@ -70,8 +126,6 @@ class CADSYS:
                 lstat = "valid"
             wanted = input("Are they wanted? If so, what are they wanted for? (Please separate all crimes by comma)>> ")
 
-
-
             # save new character to text file
             pf = open("files/people/" + name + "_civilian.txt", "a")
             pf.write("\n")
@@ -98,12 +152,13 @@ class CADSYS:
             # get input
             make = input("What is the make of the car? >> ")
             model = input("What is the model of the car? >> ")
+            lp = input("What is the license plate number? >> ")
             ro = input("Who is the registered owner of the car? >> ")
             insur = input("What is the vehicle insurance status? [Valid, Expired, Not Insured] >> ")
             notes = input("Anything else we need to know about the car? >> ")
 
             # write file for vehicle
-            cf = open("files/cars/" + make + "_" + model + "_civ_car.txt", "a")
+            cf = open("files/cars/" + lp + "_civ_car.txt", "a")
             cf.write("\n")
             cf.write("Make: " + make)
             cf.write("\n")
@@ -119,16 +174,12 @@ class CADSYS:
             a.criminal()
         elif coc == "4":
             # switch to cop mode
-            for x in range(1, 50):
+            for x in range(1, 50): # clear the console
                 print(" ")
             a.cop()
         elif coc == "5":
             # quit
             exit()
-
-
-
-
 
 if __name__ == "__main__":
     a = CADSYS()
