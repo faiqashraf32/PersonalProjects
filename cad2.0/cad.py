@@ -21,7 +21,7 @@ class CADSYS:
         else:
             now = datetime.now()
             dt = now.strftime("%d/%m/%Y %H:%M:%S")
-            print(uName, " Logged in successfully. Current log on: ",dt,"\n")
+            print(uName, "Logged in successfully. Current log on: ",dt,"\n")
             # cop or crook
             coc = input("What do you want to do? 1 for cop, 2 for criminal. 3 to quit. ")
             if coc == "1":
