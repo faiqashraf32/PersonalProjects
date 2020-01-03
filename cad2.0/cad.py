@@ -29,7 +29,7 @@ class CADSYS:
 
     def criminal(self):
         print("Welcome to criminal screen, you filthy animal.\n")
-        print("To create a new character, enter 1.\nTo edit an existing character, enter 2.\nTo register a vehicle, enter 3.\nTo quit, enter 4.\n")
+        print("To create a new character, enter 1.\nTo edit an existing character, enter 2.\nTo register a vehicle, enter 3.\nTo switch to cop, enter 4.\nTo quit, enter 5.\n")
         coc = input("Make a choice >> ")
         if coc == "1":
             # create new character
@@ -60,13 +60,11 @@ class CADSYS:
                 print("Entry invalid, lets just assume that it is valid...\n")
                 lstat = "valid"
             wanted = input("Are they wanted? If so, what are they wanted for? (Please separate all crimes by comma)>> ")
-            savePath = '/files/persons/'
-            filename = str(os.path.join(savePath, name + "_criminal.txt"))
 
 
 
             # save new character to text file
-            pf = open(filename, 'w+')
+            pf = open("files/people/" + name + "_civilian.txt", "a")
             pf.write("\n")
             pf.write("Name: " + name)
             pf.write("\n")
@@ -96,7 +94,35 @@ class CADSYS:
             notes = input("Anything else we need to know about the car? >> ")
 
             # write file for vehicle
-            filename = os.path.join(name + "_criminal.txt")
+            cf = open("files/cars/" + make + "_" + model + "_civ_car.txt", "a")
+            cf.write("\n")
+            cf.write("Make: " + make)
+            cf.write("\n")
+            cf.write("Model: " + model)
+            cf.write("\n")
+            cf.write("Registered Owner: " + ro)
+            cf.write("\n")
+            cf.write("Insurance Status: " + insur)
+            cf.write("\n")
+            cf.write("Notes: " + notes)
+            cf.write("\n")
+            cf.close()
+            a.criminal()
+        elif coc == "4":
+            # switch to cop mode
+            print(" ")
+            print(" ")
+            print(" ")
+            print(" ")
+            print(" ")
+            a.cop()
+
+        elif coc == "5":
+            # quit
+            exit()
+
+
+
 
 
 if __name__ == "__main__":
