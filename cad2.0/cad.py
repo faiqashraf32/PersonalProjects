@@ -33,7 +33,7 @@ class CADSYS:
                 
     def cop(self):
         print("Welcome to the cop screen you upstanding law person\n")
-        print("To look up a civilian in the database, enter 1.\nTo look up a license plate in the database, enter 2.\nTo switch to criminal mode, enter 3.\n To quit the program, enter 4.\n")
+        print("To look up a civilian in the database, enter 1.\nTo look up a license plate in the database, enter 2.\nTo switch to criminal mode, enter 3.\nTo quit the program, enter 4.\n")
         choice = input("Make a decision >> ")
         # path for files:
         # /Users/faiqashraf/Desktop/github site/PersonalProjects/cad2.0/files/cars/MAKE_MODEL_civ_car.txt
@@ -49,8 +49,10 @@ class CADSYS:
             try:
                 f = open(filename)
                 # great we found it, lets reveal its contents
+                print("-------------------------")
                 s = f.read() # read file contents
                 print(s) # print file contents
+                print("-------------------------")
             except IOError:
                 # no file found, sad, so sad
                 print("No such record was found. Try again.\n")
@@ -102,14 +104,22 @@ class CADSYS:
             name = input("What is their name? >> ")
             dob_year = input("What year were they born? >> ")
             dob_month = input("What month were they born in? >> (1 = Jan, 2 = Feb, 3 = Mar, 4 = Apr, 5 = May, etc)")
+            # convert for function-friendly input
+            if dob_month == "1" or "2" or "3" or "4" or "5" or "6" or "7" or "8" or "9":
+                dob_month = "0" + dob_month
+
             dob_day = input("What day were they born on? >> ")
-            age = input("How old are they? >> ")
+
+            # convert for function-friendly input
+            if dob_day == "1" or "2" or "3" or "4" or "5" or "6" or "7" or "8" or "9":
+                dob_day = "0" + dob_day
+
+            # age = input("How old are they? >> ")
             # calculate age
-            # birthDate = int(dob_year) + int(dob_day) + int(dob_month)
-            # days_in_year = 365.2425    
-            # agei = int((date.today() - birthDate).days / days_in_year) 
-            # age = str(agei)
-            # print("So that means that their age is = ", age)
+            today = date.today()
+            age = today.year - int(dob_year) - ((today.month, today.day) < (int(dob_month), int(dob_day)))
+            print("\nWith that birthdate, their age is: " + str(age))
+
             dob = dob_month + " / " + dob_day + " / " + dob_year # dob for the file
             gender = input("What is their gender? >> ")
             lstati = input("What is their license status? [Options: 1 = Valid, 2 = Suspended, 3 = Revoked, 4 = Permit]>> ")
@@ -133,7 +143,7 @@ class CADSYS:
             pf.write("\n")
             pf.write("Gender: " + gender)
             pf.write("\n")
-            pf.write("Age: " + age)
+            pf.write("Age: " + str(age))
             pf.write("\n")
             pf.write("Date of birth: " + dob)
             pf.write("\n")
