@@ -1,0 +1,6 @@
+
+Make: bravado
+Model: buffalo
+Registered Owner: jerry yoder
+Insurance Status: Valid
+Notes: Color Red

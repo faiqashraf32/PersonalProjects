@@ -53,13 +53,13 @@ class CADSYS:
                 s = f.read() # read file contents
                 print(s) # print file contents
                 print("-------------------------")
+                f.close()
             except IOError:
                 # no file found, sad, so sad
                 print("No such record was found. Try again.\n")
                 a.cop()
             finally:
                 # close the file. release from memory
-                f.close()
                 a.cop()
 
         elif choice == "2":
@@ -72,8 +72,10 @@ class CADSYS:
             try:
                 f = open(filename)
                 # great we found it, lets reveal its contents
+                print("-------------------------")
                 s = f.read() # read file contents
                 print(s) # print file contents
+                print("-------------------------")
             except IOError:
                 # no file found, sad, so sad
                 print("No such record was found. Try again.\n")
