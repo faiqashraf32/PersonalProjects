@@ -1,7 +1,3 @@
-from tkinter import *
-from tkinter import messagebox
-from tkinter import ttk
-
 class FSB:
         # arrays to store flight information
         airline = []
@@ -10,14 +6,7 @@ class FSB:
         gate = []
         status = []
         input = ""
-    # def build(self):
-        # window = Tk()
-        # window.title("Flight Status Board") # writes title in title bar
-        # window.geometry('1000x350') # establishes window size
-        # window.configure(background = "Black") # changes the background color
-        # content = ttk.Frame(window) # makes frame for adding form elements
-        # frame = ttk.Frame(content, borderwidth=1, relief="sunken", width=800, height=600) 
-        # 
+
         def addFlight(self):
    
             while input != "bye":
@@ -45,8 +34,11 @@ class FSB:
             
         def showAll(self):
             print("Airline | Flight Number | Destination | Gate | Status")
-            for x in a.airline, a.flightNumbers, a.destination, a.gate, a.status:
-                print(a.airline[x] + [" | "] + a.flightNumbers[x] + [" | "] + a.destination[x] + [" | "] +  a.gate[x] + [" | "]+  a.status[x])
+            x = 0
+            while x < len(a.airline):
+                print(a.airline + [" | "] + a.flightNumbers + [" | "] + a.destination + [" | "] +  a.gate + [" | "]+  a.status + ["\n"])
+                x += 1
+
             go = input("To add a new entry, enter 1.\nTo reprint list, enter 2.\nTo exit, enter 3.\n")
             if go == "1":
                 a.addFlight()
@@ -56,11 +48,6 @@ class FSB:
                 a.showAll()
             elif go == "3":
                 exit()
-
-
-
-
-
 
 if __name__ == "__main__":
     a = FSB()
