@@ -1,12 +1,165 @@
 <html>
     <title> Flight Status Board </title>
-    <head> FSB </head>
     <body>
         <h1> Flight Status Board </h1>
-        <br />
-        <p> This is a word of some sort</p>
+        <br /> 		<br />
+        <label for="airline.txt">Airline Name</label>
+        <input name="airline.txt" type="text" id="airline.txt">
+		<br /> 		<br />
+		<label for="fn.txt">Flight Number</label>
+        <input name="fn.txt" type="text" id="fn.txt">
+		<br />		<br />
+		<label for="dest.txt">Destination</label>
+        <input name="dest.txt" type="text" id="dest.txt">
+		<br /> 		<br />
+		<label for="gate.txt">Gate</label>
+        <input name="gate.txt" type="text" id="gate.txt">
+		<br /> 		<br />
+		<label for="stat.txt">Status</label>
+        <input name="stat.txt" type="text" id="stat.txt">
+		<br /> 		<br />
+        <input type="button" id="addFlightBTN" value="Add Flight" onClick="addFlight()">
+		<br /> 		<br />
+		<table width="1000" border="1">
+		  <tbody>
+		    <tr>
+		      <td width="157">Airline</td>
+		      <td width="102">Flight Number</td>
+		      <td width="510">Destination</td>
+		      <td width="58">Gate</td>
+		      <td width="139">Status</td>
+	        </tr>
+		    <tr>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+	        </tr>
+		    <tr>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+	        </tr>
+		    <tr>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+	        </tr>
+		    <tr>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+	        </tr>
+		    <tr>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+	        </tr>
+		    <tr>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+	        </tr>
+		    <tr>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+	        </tr>
+		    <tr>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+	        </tr>
+		    <tr>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+	        </tr>
+		    <tr>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+	        </tr>
+		    <tr>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+	        </tr>
+		    <tr>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+	        </tr>
+		    <tr>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+	        </tr>
+		    <tr>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+	        </tr>
+		    <tr>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+	        </tr>
+		    <tr>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+		      <td>&nbsp;</td>
+	        </tr>
+	      </tbody>
+    </table>
+		<script>
+        function addFlight() {
+			// Get input
+            var airline = document.getElementById("airline.txt").value;
+			var flightNum = document.getElementById("fn.txt").value;
+			var destination = document.getElementById("dest.txt").value;
+			var gate = document.getElementById("gate.txt").value;
+			var stat = document.getElementById("stat.txt").value;
+			<! –– document.getElementById("airlineprint").innerHTML = airline; --!>
 
-        <script src="fsb.js"> </script>
+			
+			
+
+        }
+        
+        
+        </script>
         
 
 
