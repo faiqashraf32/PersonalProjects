@@ -5,31 +5,36 @@ import os.path
 
 
 class CADSYS:
+    import os
+    path = os.getcwd()
+    print("\n\n\n\n" + path + "\n\n\n\n")
+    path = "/Users/faiqashraf/Desktop/github site/PersonalProjects/cad2.0"
+    print("\n\n\n\n" + path + "\n\n\n\n")
+
     def login(self):
-        import os
-        path = os.getcwd()
-        print(path)
+        
+
 
         print("Welcome to CAD. Login Screen. \n")
-        uName = input("Username >> ")
-        uNames = ["e1ectricpancake", "contract56", "choclateairlines95", "admin"]
-        if uName == "quit" or uName == "logout" or uName == "exit":
+        # uName = input("Username >> ")
+        # uNames = ["e1ectricpancake", "contract56", "choclateairlines95", "admin"]
+        # if uName == "quit" or uName == "logout" or uName == "exit":
+        #     exit()
+        # elif uName not in uNames:
+        #     print("Username not found. Try again.\n")
+        #     a.login()
+        # else:
+        now = datetime.now()
+        dt = now.strftime("%d/%m/%Y %H:%M:%S")
+        print("Logged in successfully. Current log on: ",dt,"\n")
+        # cop or crook
+        coc = input("What do you want to do? 1 for cop, 2 for criminal. 3 to quit. ")
+        if coc == "1":
+            a.cop()
+        elif coc == "2":
+            a.criminal()
+        elif coc == "3":
             exit()
-        elif uName not in uNames:
-            print("Username not found. Try again.\n")
-            a.login()
-        else:
-            now = datetime.now()
-            dt = now.strftime("%d/%m/%Y %H:%M:%S")
-            print(uName, "Logged in successfully. Current log on: ",dt,"\n")
-            # cop or crook
-            coc = input("What do you want to do? 1 for cop, 2 for criminal. 3 to quit. ")
-            if coc == "1":
-                a.cop()
-            elif coc == "2":
-                a.criminal()
-            elif coc == "3":
-                exit()
                 
     def cop(self):
         print("Welcome to the cop screen you upstanding law person\n")
@@ -43,7 +48,7 @@ class CADSYS:
             # first, we need to determine what the file is called, luckily, we know the path to be:
             # /Users/faiqashraf/Desktop/github site/PersonalProjects/cad2.0/files/people/NAMEOFCRIMINAL_criminal.txt
             # so lets tell the computer to look there:
-            filename = "files/people/" + name + "_civilian.txt"
+            filename = a.path + "/files/people/"+ name + "_civilian.txt"
             # print("File name is = " + filename)
             # now lets see if a file exists with that person
             try:
@@ -67,7 +72,7 @@ class CADSYS:
             # get license plate number
             plate = input("What is the license plate number? >> ")
             # tell the computer where to look for the record
-            filename = "files/cars/" + plate + "_civ_car.txt"
+            filename = a.path + "/files/people/"+ plate + "_civ_car.txt"
              # now lets see if a file exists with that person
             try:
                 f = open(filename)
@@ -106,14 +111,17 @@ class CADSYS:
             name = input("What is their name? >> ")
             dob_year = input("What year were they born? >> ")
             dob_month = input("What month were they born in? >> (1 = Jan, 2 = Feb, 3 = Mar, 4 = Apr, 5 = May, etc)")
+
+            needToConvert = ["1","2","3","4","5","6","7","8","9"]
+
             # convert for function-friendly input
-            if dob_month == "1" or "2" or "3" or "4" or "5" or "6" or "7" or "8" or "9":
+            if dob_month in needToConvert:
                 dob_month = "0" + dob_month
 
             dob_day = input("What day were they born on? >> ")
 
             # convert for function-friendly input
-            if dob_day == "1" or "2" or "3" or "4" or "5" or "6" or "7" or "8" or "9":
+            if dob_day in needToConvert:
                 dob_day = "0" + dob_day
 
             # age = input("How old are they? >> ")
@@ -137,9 +145,9 @@ class CADSYS:
                 print("Entry invalid, lets just assume that it is valid...\n")
                 lstat = "valid"
             wanted = input("Are they wanted? If so, what are they wanted for? (Please separate all crimes by comma)>> ")
-
+            location = a.path + "/files/people/"+ name + "_civilian.txt" # save location for file
             # save new character to text file
-            pf = open("files/people/" + name + "_civilian.txt", "a")
+            pf = open(location, "a")
             pf.write("\n")
             pf.write("Name: " + name)
             pf.write("\n")
@@ -154,7 +162,7 @@ class CADSYS:
             pf.write("Wanted Status: " + wanted)
             pf.write("\n")
             pf.close()
-            print("File created sucessfully.")
+            print("File created sucessfully.\n")
             a.criminal()
         elif coc == "2":
             # edit a record
@@ -166,11 +174,20 @@ class CADSYS:
             model = input("What is the model of the car? >> ")
             lp = input("What is the license plate number? >> ")
             ro = input("Who is the registered owner of the car? >> ")
-            insur = input("What is the vehicle insurance status? [Valid, Expired, Not Insured] >> ")
+            insur = input("What is the vehicle insurance status? [1 = Valid, 2 = Expired, 3 = Not Insured] >> ")
+            if insur == "1":
+                insur = "Valid"
+            elif insur == "2":
+                insur = "Expired"
+            elif insur == "3":
+                insur = "Not Insured"
+            else:
+                print("Invalid entry. Lets assume that they have valid insurance")
+                insur = "Valid"
             notes = input("Anything else we need to know about the car? >> ")
-
+            ploco = a.path + "/files/people/"+ lp + "_civ_car.txt" # plate location = ploco
             # write file for vehicle
-            cf = open("files/cars/" + lp + "_civ_car.txt", "a")
+            cf = open(ploco, "a")
             cf.write("\n")
             cf.write("Make: " + make)
             cf.write("\n")
