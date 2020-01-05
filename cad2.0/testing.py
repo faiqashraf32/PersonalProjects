@@ -10,6 +10,8 @@ def convert(a):
 convert("1")
 convert("5")
 convert("8")
+convert("2")
 convert("12")
 convert("100")
 convert("31i432orji342")
+convert("18")
