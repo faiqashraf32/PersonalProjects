@@ -100,8 +100,13 @@ class Grader:
         #     whatToChange = input("What question's answer do you want to change? Enter a number between 1 and " + str(numOfQuestions))
         #     if whatToChange <= int(numOfQuestions):
         #         # change the answer
-        #         newAns = input("What do you want the answer to be? >> ")
-        #         responses[whatToChange] == newAns
+        #             # figure out where we shall change the answer
+        #             # for b in responses:
+        #                 # changing = 
+        #             # figure out what the new answer is
+        #         newAns = input("What do you want the answer to be? >> ")      
+        #             # change the entry at the correct spot
+                # responses[whatToChange] == newAns
             
 
 
