@@ -73,7 +73,6 @@ class Grader:
             else:
                 # incorrect answer, let us record this instance to show them that they entered something in wrong
                 #                tells us what problem number                    user entry                  correct answer
-                print("index of self.responses.index: "+str(self.responses.index(p)))
                 # since computers start counting at 0, we must increment self.responses.index(p) by 1, or else our "wrong answer" will be attributed to the wrong question
                 zebra = self.responses.index(p) + 1
                 goingIn = "#" + str(zebra) + " user entered: " + p + " correct answer: " + q
@@ -83,14 +82,14 @@ class Grader:
                 
         # issue a grade
         print(str(numCorrect))
-        print("Number of correct answers = " + str(numCorrect) + " out of " + str(self.numOfQuestions))
+        print("\nNumber of correct answers = " + str(numCorrect) + " out of " + str(self.numOfQuestions))
         grade = int(numCorrect) / int(self.numOfQuestions)
         print("Your score is: " + str(grade))
 
         # display incorrect answers:
         print("Here are the questions the user got wrong, as well as their correct answers:")
         for l in self.incorrect:
-            print(l)
+            print("\n"+l)
 
         # end the program
         exit(0)
