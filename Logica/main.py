@@ -127,7 +127,7 @@ class Logica:
                     print("I have added " + entry + " to the set u.\n")
                 else:
                     # display values in u
-                    print(*self.u, sep=', ')
+                    print("{", *self.u, sep=', ', end = "}")
                     # uu = []
                     # for response in self.u:
                     #     # print(str(response) + ",")
