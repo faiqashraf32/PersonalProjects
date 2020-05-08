@@ -110,6 +110,8 @@ class Logica:
             a.editSet()
         elif go == "2": 
             a.union()
+        elif go == "3":
+            a.intersect()
         else:
             exit(0)
         
@@ -136,8 +138,31 @@ class Logica:
                 print(self.uWho)
                 uWho = []
                 a.whatNow()
-                
+    
+    def intersect(self):
+        print("Welcome to intersect Checker!\n")
+        self.append = []
+        entry = ""
+
+        # figure out what sets we want to check for intersection
+        while entry != "stop":
+            entry = input("Which set would you like to check for intersection? >> ")
+            # store user input
+            self.check.append(entry)
+
+        # lets figure out what they entered above so that we check for intersection in the right sets
+        self.sets = [a,b,c,d,e,f]  
+        self.go = [] # this will contain the sets that we want to check for intersection
+        for p in self.check:
+            if p in self.sets:
+                self.go.append(p)
+
+        # now we check for intersection
+        for x,y in zip(self.go)
         
+
+
+
 
 if __name__ == "__main__":
     a = Logica()
