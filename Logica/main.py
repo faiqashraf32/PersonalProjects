@@ -141,24 +141,32 @@ class Logica:
     
     def intersect(self):
         print("Welcome to intersect Checker!\n")
-        self.append = []
-        entry = ""
+        self.check = []
+        self.entry = ""
 
         # figure out what sets we want to check for intersection
-        while entry != "stop":
-            entry = input("Which set would you like to check for intersection? >> ")
-            # store user input
-            self.check.append(entry)
+        entry = input("What sets do you want to check for intersection (a-f)? Enter response with no spaces and lowercase letters (e.g. abc) >> ")
+        # figure out what the heck they just entered
+        
+        # Go to split.py to figure out what to put here bot
 
-        # lets figure out what they entered above so that we check for intersection in the right sets
-        self.sets = [a,b,c,d,e,f]  
-        self.go = [] # this will contain the sets that we want to check for intersection
-        for p in self.check:
-            if p in self.sets:
-                self.go.append(p)
 
-        # now we check for intersection
-        for x,y in zip(self.go)
+
+
+        # while entry != "stop":
+        #     entry = input("Which set would you like to check for intersection? >> ")
+        #     # store user input
+        #     self.check.append(entry)
+
+        # # lets figure out what they entered above so that we check for intersection in the right sets
+        # self.sets = [a,b,c,d,e,f]  
+        # self.go = [] # this will contain the sets that we want to check for intersection
+        # for p in self.check:
+        #     if p in self.sets:
+        #         self.go.append(p)
+
+        # # now we check for intersection
+        # for x,y in zip(self.go)
         
 
 
@@ -166,4 +174,4 @@ class Logica:
 
 if __name__ == "__main__":
     a = Logica()
-    a.start()
+    a.intersect()
