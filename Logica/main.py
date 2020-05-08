@@ -25,11 +25,7 @@ class Logica:
                     print("I have added " + entry + " to the set a.\n")
                 else:
                     # display values in a
-                    aa = []
-                    for response in self.a:
-                        # print(str(response) + ",")
-                        aa += str(response)
-                    print(aa)
+                    print(self.a)
                     a.whatNow()
 
         elif setEdit == "b":
@@ -42,11 +38,7 @@ class Logica:
                     print("I have added " + entry + " to the set b.\n")
                 else:
                     # display values in b
-                    bb = []
-                    for response in self.b:
-                        # print(str(response) + ",")
-                        bb += str(response)
-                    print(bb)
+                    print(self.b)
                     a.whatNow()
 
         elif setEdit == "c":
@@ -59,11 +51,7 @@ class Logica:
                     print("I have added " + entry + " to the set c.\n")
                 else:
                     # display values in c
-                    cc = []
-                    for response in self.c:
-                        # print(str(response) + ",")
-                        cc += str(response)
-                    print(cc)
+                    print(self.c)
                     a.whatNow()
 
         elif setEdit == "d":
@@ -76,11 +64,7 @@ class Logica:
                     print("I have added " + entry + " to the set d.\n")
                 else:
                     # display values in d
-                    dd = []
-                    for response in self.d:
-                        # print(str(response) + ",")
-                        dd += str(response)
-                    print(dd)
+                    print(self.d)
                     a.whatNow()
 
         elif setEdit == "e":
@@ -93,11 +77,7 @@ class Logica:
                     print("I have added " + entry + " to the set e.\n")
                 else:
                     # display values in e
-                    ee = []
-                    for response in self.e:
-                        # print(str(response) + ",")
-                        ee += str(response)
-                    print(ee)
+                    print(self.e)
                     a.whatNow()
 
         elif setEdit == "f":
@@ -110,11 +90,7 @@ class Logica:
                     print("I have added " + entry + " to the set f.\n")
                 else:
                     # display values in f
-                    ff = []
-                    for response in self.f:
-                        # print(str(response) + ",")
-                        ff += str(response)
-                    print(ff)
+                    print(self.f)
                     a.whatNow()
 
         elif setEdit == "u":
@@ -127,12 +103,7 @@ class Logica:
                     print("I have added " + entry + " to the set u.\n")
                 else:
                     # display values in u
-                    print("{", *self.u, sep=', ', end = "}")
-                    # uu = []
-                    # for response in self.u:
-                    #     # print(str(response) + ",")
-                    #     uu += str(response)
-                    # print(uu)
+                    print(self.u)
                     a.whatNow()
 
     def whatNow(self):
