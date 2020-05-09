@@ -14,10 +14,10 @@ class Logica:
         self.f = []
         self.u = [] # universal set
 
-        self.setEdit = input("Which set would you like to edit? (a-f) or universe (u) >> ")
         a.editSet()
 
     def editSet(self):
+        self.setEdit = input("Which set would you like to edit? (a-f) or universe (u) >> ")
         if self.setEdit == "a":
             print("Editing set a. Please enter values, when finished, enter 'stop' \n")
             entry = ""
@@ -145,12 +145,36 @@ class Logica:
         self.entry = ""
 
         # figure out what sets we want to check for intersection
-        entry = input("What sets do you want to check for intersection (a-f)? Enter response with no spaces and lowercase letters (e.g. abc) >> ")
+        self.entry = input("What sets do you want to check for intersection (a-f)? Enter response with no spaces and lowercase letters (e.g. abc) >> ")
+        
         # figure out what the heck they just entered
         
-        # Go to split.py to figure out what to put here bot
+        self.x = [] # this will store each set value individually
+        for char in self.entry:
+            self.x.append(char)
+        
+        # new container to store the list of the sets we want to find intersection with
+        self.z = {}
+        for p in (self.x):
+            if p == "a":
+                # we know a is one set
+                self.z.append(a)
+            if p == "b":
+                self.z.append(b)
+            if p == "c":
+                self.z.append(c)
+            if p == "d":
+                self.z.append(d)
+            if p == "e":
+                self.z.append(e)
+            if p == "f":
+                self.z.append(f)
+        # so now that we know what sets we want to find the intersection of, we can go ahead and find the intersection
+        self.inter = set.intersection(*self.z)
 
-
+        print("The intersection of the sets is: " + str(self.inter))
+        exit(0)
+        a.whatNow() # return to main menu
 
 
         # while entry != "stop":
@@ -174,4 +198,4 @@ class Logica:
 
 if __name__ == "__main__":
     a = Logica()
-    a.intersect()
+    a.start()
