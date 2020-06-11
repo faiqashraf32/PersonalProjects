@@ -1,0 +1,10 @@
+// getting user input and storing into array A (size 6)
+
+integer array(5) A
+integer key
+integer i
+
+i = 0
+while i < 5
+   A[i] = Get next input
+   i = i + 1
