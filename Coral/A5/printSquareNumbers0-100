@@ -1,0 +1,11 @@
+// output all square numbers (1-9)
+
+integer i
+integer z
+
+while i < 10
+   z = i * i
+   Put z to output
+   Put " " to output
+   z = 0
+   i = i + 1
