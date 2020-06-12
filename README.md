@@ -8,4 +8,5 @@ I have experience in various languages, here are a few that I have worked with b
 - Java
 - Python
 - JavaScript
+- Coral
 
