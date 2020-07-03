@@ -1,0 +1,10 @@
+C:\Users\Faiq\source\repos\moveafile\moveafile\bin\Debug\moveafile.exe.config
+C:\Users\Faiq\source\repos\moveafile\moveafile\bin\Debug\moveafile.exe
+C:\Users\Faiq\source\repos\moveafile\moveafile\bin\Debug\moveafile.pdb
+C:\Users\Faiq\source\repos\moveafile\moveafile\obj\Debug\moveafile.Form1.resources
+C:\Users\Faiq\source\repos\moveafile\moveafile\obj\Debug\moveafile.Properties.Resources.resources
+C:\Users\Faiq\source\repos\moveafile\moveafile\obj\Debug\moveafile.csproj.GenerateResource.Cache
+C:\Users\Faiq\source\repos\moveafile\moveafile\obj\Debug\moveafile.csproj.CoreCompileInputs.cache
+C:\Users\Faiq\source\repos\moveafile\moveafile\obj\Debug\moveafile.exe
+C:\Users\Faiq\source\repos\moveafile\moveafile\obj\Debug\moveafile.pdb
+C:\Users\Faiq\source\repos\moveafile\moveafile\obj\Debug\moveafile.csprojResolveAssemblyReference.cache
