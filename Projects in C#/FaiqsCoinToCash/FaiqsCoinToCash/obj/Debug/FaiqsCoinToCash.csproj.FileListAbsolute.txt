@@ -1,0 +1,13 @@
+C:\Users\Faiq\source\repos\FaiqsCoinToCash\FaiqsCoinToCash\bin\Debug\FaiqsCoinToCash.exe.config
+C:\Users\Faiq\source\repos\FaiqsCoinToCash\FaiqsCoinToCash\bin\Debug\FaiqsCoinToCash.exe
+C:\Users\Faiq\source\repos\FaiqsCoinToCash\FaiqsCoinToCash\bin\Debug\FaiqsCoinToCash.pdb
+C:\Users\Faiq\source\repos\FaiqsCoinToCash\FaiqsCoinToCash\obj\Debug\FaiqsCoinToCash.csprojResolveAssemblyReference.cache
+C:\Users\Faiq\source\repos\FaiqsCoinToCash\FaiqsCoinToCash\obj\Debug\FaiqsCoinToCash.Form1.resources
+C:\Users\Faiq\source\repos\FaiqsCoinToCash\FaiqsCoinToCash\obj\Debug\FaiqsCoinToCash.Properties.Resources.resources
+C:\Users\Faiq\source\repos\FaiqsCoinToCash\FaiqsCoinToCash\obj\Debug\FaiqsCoinToCash.csproj.GenerateResource.Cache
+C:\Users\Faiq\source\repos\FaiqsCoinToCash\FaiqsCoinToCash\obj\Debug\FaiqsCoinToCash.csproj.CoreCompileInputs.cache
+C:\Users\Faiq\source\repos\FaiqsCoinToCash\FaiqsCoinToCash\obj\Debug\FaiqsCoinToCash.exe
+C:\Users\Faiq\source\repos\FaiqsCoinToCash\FaiqsCoinToCash\obj\Debug\FaiqsCoinToCash.pdb
+C:\Users\Faiq\source\repos\FaiqsCoinToCash\FaiqsCoinToCash\bin\Debug\Microsoft.VisualStudio.Tools.Applications.Runtime.dll
+C:\Users\Faiq\source\repos\FaiqsCoinToCash\FaiqsCoinToCash\obj\Debug\FaiqsCoinToCash.login.resources
+C:\Users\Faiq\source\repos\FaiqsCoinToCash\FaiqsCoinToCash\obj\Debug\FaiqsCoinToCash.BulkCoinDeposit.resources

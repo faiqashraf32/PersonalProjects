@@ -1,0 +1,23 @@
+C:\Users\Faiq\Documents\Visual Studio 2017\Projects\FaiqRewards\FaiqRewards\obj\Debug\FaiqRewards.csprojResolveAssemblyReference.cache
+C:\Users\Faiq\Documents\Visual Studio 2017\Projects\FaiqRewards\FaiqRewards\obj\Debug\FaiqRewards.Form1.resources
+C:\Users\Faiq\Documents\Visual Studio 2017\Projects\FaiqRewards\FaiqRewards\obj\Debug\FaiqRewards.Properties.Resources.resources
+C:\Users\Faiq\Documents\Visual Studio 2017\Projects\FaiqRewards\FaiqRewards\obj\Debug\FaiqRewards.csproj.GenerateResource.Cache
+C:\Users\Faiq\Documents\Visual Studio 2017\Projects\FaiqRewards\FaiqRewards\obj\Debug\FaiqRewards.csproj.CoreCompileInputs.cache
+C:\Users\Faiq\Documents\Visual Studio 2017\Projects\FaiqRewards\FaiqRewards\bin\Debug\FaiqRewards.exe.config
+C:\Users\Faiq\Documents\Visual Studio 2017\Projects\FaiqRewards\FaiqRewards\bin\Debug\FaiqRewards.exe
+C:\Users\Faiq\Documents\Visual Studio 2017\Projects\FaiqRewards\FaiqRewards\bin\Debug\FaiqRewards.pdb
+C:\Users\Faiq\Documents\Visual Studio 2017\Projects\FaiqRewards\FaiqRewards\obj\Debug\FaiqRewards.exe
+C:\Users\Faiq\Documents\Visual Studio 2017\Projects\FaiqRewards\FaiqRewards\obj\Debug\FaiqRewards.pdb
+C:\Users\Faiq\Documents\Visual Studio 2017\Projects\FaiqRewards\FaiqRewards\obj\Debug\FaiqRewards.AdjustBalance.resources
+C:\Users\Faiq\Documents\Visual Studio 2017\Projects\FaiqRewards\FaiqRewards\bin\Debug\FaiqRewards.exe.manifest
+C:\Users\Faiq\Documents\Visual Studio 2017\Projects\FaiqRewards\FaiqRewards\bin\Debug\FaiqRewards.application
+C:\Users\Faiq\Documents\Visual Studio 2017\Projects\FaiqRewards\FaiqRewards\obj\Debug\FaiqRewards.exe.manifest
+C:\Users\Faiq\Documents\Visual Studio 2017\Projects\FaiqRewards\FaiqRewards\obj\Debug\FaiqRewards.application
+C:\Users\faiqe\OneDrive\333020 H Drive backup\All\Documents\Visual Studio 2017\Projects\FaiqRewards\FaiqRewards\obj\Debug\FaiqRewards.csprojAssemblyReference.cache
+C:\Users\faiqe\OneDrive\333020 H Drive backup\All\Documents\Visual Studio 2017\Projects\FaiqRewards\FaiqRewards\obj\Debug\FaiqRewards.AdjustBalance.resources
+C:\Users\faiqe\OneDrive\333020 H Drive backup\All\Documents\Visual Studio 2017\Projects\FaiqRewards\FaiqRewards\obj\Debug\FaiqeRewards.Form1.resources
+C:\Users\faiqe\OneDrive\333020 H Drive backup\All\Documents\Visual Studio 2017\Projects\FaiqRewards\FaiqRewards\obj\Debug\FaiqRewards.Properties.Resources.resources
+C:\Users\faiqe\OneDrive\333020 H Drive backup\All\Documents\Visual Studio 2017\Projects\FaiqRewards\FaiqRewards\obj\Debug\FaiqRewards.csproj.GenerateResource.cache
+C:\Users\faiqe\OneDrive\333020 H Drive backup\All\Documents\Visual Studio 2017\Projects\FaiqRewards\FaiqRewards\obj\Debug\FaiqRewards.csproj.CoreCompileInputs.cache
+C:\Users\faiqe\OneDrive\333020 H Drive backup\All\Documents\Visual Studio 2017\Projects\FaiqRewards\FaiqRewards\obj\Debug\FaiqRewards.exe
+C:\Users\faiqe\OneDrive\333020 H Drive backup\All\Documents\Visual Studio 2017\Projects\FaiqRewards\FaiqRewards\obj\Debug\FaiqRewards.pdb
