@@ -1,0 +1,9 @@
+C:\Users\Faiq\source\repos\Reform\Reform\bin\Debug\Reform.exe.config
+C:\Users\Faiq\source\repos\Reform\Reform\bin\Debug\Reform.exe
+C:\Users\Faiq\source\repos\Reform\Reform\bin\Debug\Reform.pdb
+C:\Users\Faiq\source\repos\Reform\Reform\obj\Debug\Reform.Form1.resources
+C:\Users\Faiq\source\repos\Reform\Reform\obj\Debug\Reform.Properties.Resources.resources
+C:\Users\Faiq\source\repos\Reform\Reform\obj\Debug\Reform.csproj.GenerateResource.Cache
+C:\Users\Faiq\source\repos\Reform\Reform\obj\Debug\Reform.csproj.CoreCompileInputs.cache
+C:\Users\Faiq\source\repos\Reform\Reform\obj\Debug\Reform.exe
+C:\Users\Faiq\source\repos\Reform\Reform\obj\Debug\Reform.pdb

@@ -1,0 +1,17 @@
+C:\Users\Faiq\source\repos\Donde\Donde\bin\Debug\Donde.exe.config
+C:\Users\Faiq\source\repos\Donde\Donde\bin\Debug\Donde.exe
+C:\Users\Faiq\source\repos\Donde\Donde\bin\Debug\Donde.pdb
+C:\Users\Faiq\source\repos\Donde\Donde\obj\Debug\Donde.csprojResolveAssemblyReference.cache
+C:\Users\Faiq\source\repos\Donde\Donde\obj\Debug\Donde.Form1.resources
+C:\Users\Faiq\source\repos\Donde\Donde\obj\Debug\Donde.Properties.Resources.resources
+C:\Users\Faiq\source\repos\Donde\Donde\obj\Debug\Donde.csproj.GenerateResource.Cache
+C:\Users\Faiq\source\repos\Donde\Donde\obj\Debug\Donde.csproj.CoreCompileInputs.cache
+C:\Users\Faiq\source\repos\Donde\Donde\obj\Debug\Donde.exe
+C:\Users\Faiq\source\repos\Donde\Donde\obj\Debug\Donde.pdb
+C:\Users\Faiq\source\repos\Donde\Donde\bin\Debug\Donde.exe.manifest
+C:\Users\Faiq\source\repos\Donde\Donde\bin\Debug\Donde.application
+C:\Users\Faiq\source\repos\Donde\Donde\obj\Debug\Donde.exe.manifest
+C:\Users\Faiq\source\repos\Donde\Donde\obj\Debug\Donde.application
+C:\Users\Faiq\source\repos\Donde\Donde\obj\Debug\Donde.New_Save_Location.resources
+C:\Users\Faiq\source\repos\Donde\Donde\obj\Debug\Donde.Remove_A_Location.resources
+C:\Users\Faiq\source\repos\Donde\Donde\obj\Debug\Donde.Delete_an_Item.resources

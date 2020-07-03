@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="DropShipBoom.exe" version="0.0.1.0" publicKeyToken="329350b2e4415ebc" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Mymovingreviews-3d-Movers-Boxes-brown.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="DropShipBoom" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="DropShipBoom.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DropShipBoom.exe" size="191448">
+      <assemblyIdentity name="DropShipBoom" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>4PpINPmkh5eg9ycMVRuShL0LNaCRASlo46LZYjSJnmc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="DropShipBoom.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Mymovingreviews-3d-Movers-Boxes-brown.ico" size="175923">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ns4vYz5mULSSRwsMXDN7tZ04E0LizcrX+pKquruBC00=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=FAIQDELLLAPTOP\Faiq" issuerKeyHash="6920babd762aa8ee81766f92c8cd4b27aef2b5a4" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>zgaVHfeN6Dfr0G9yu2+c/UMWDqMi7M3V0dKb1HIKnUs=</DigestValue></Reference></SignedInfo><SignatureValue>c/uRfWCr0XyelHmQM5vnL8KVhEfuSyV+q5WSoCOEh4PFfFU5bQtlVs3K3d0Zw4otkUBKdatZz3pXhQ9y7gZBNdfii3nctuVWRyzpyrIRdZsUb2bP3LTTiQobIToSPy7L5XXOZIpROKl6UKhKUYOYD01UDJ0ZsTF50ptv6vAEwb0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>sENxhKmTbx9Hn3CJpd5Ujtb9YJ6XV/6idt98Js/fnYprK6RO1OArXsDCK0nBravKlHo8CzqdCxYCI8M5berXvQblaAYkF+TvMAh3ZProp8WjAah4qzktlvIoUiCV2/kIlnCOJ4quC6hA42a1bpfg2bEP4BMnrC6YIw0SkN1gZzU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="4b9d0a72d49bd2d1d5cdec22a30e1643fd9c6fbb726fd0eb37e88df71d9506ce" Description="" Url=""><as:assemblyIdentity name="DropShipBoom.exe" version="0.0.1.0" publicKeyToken="329350b2e4415ebc" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=FAIQDELLLAPTOP\Faiq</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>tkgTkBfWMqANJExEqcAIqsJqqk/mWjYVuBaKYs9eCdI=</DigestValue></Reference></SignedInfo><SignatureValue>TpchCvx1MGnbeIfPqg+7Pod1ogDCCBT4OAZpA8JnYyUOe+Jei81dpIptSAXfQpaYCufkX+1gfGbxZhnGHskJejCyWIEpoUpbUh2omfIrgTKvJxaWsHf5HNw1zkzBATHx26kTpVkHKQ7j99lWBbz03uosbo2+xf77LDuIGrDivys=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>sENxhKmTbx9Hn3CJpd5Ujtb9YJ6XV/6idt98Js/fnYprK6RO1OArXsDCK0nBravKlHo8CzqdCxYCI8M5berXvQblaAYkF+TvMAh3ZProp8WjAah4qzktlvIoUiCV2/kIlnCOJ4quC6hA42a1bpfg2bEP4BMnrC6YIw0SkN1gZzU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB5TCCAU6gAwIBAgIQSVQPfP8Jn4NFkFFgMwHMkDANBgkqhkiG9w0BAQsFADAxMS8wLQYDVQQDHiYARgBBAEkAUQBEAEUATABMAEwAQQBQAFQATwBQAFwARgBhAGkAcTAeFw0xODA0MTYyMDMzMTRaFw0xOTA0MTcwMjMzMTRaMDExLzAtBgNVBAMeJgBGAEEASQBRAEQARQBMAEwATABBAFAAVABPAFAAXABGAGEAaQBxMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwQ3GEqZNvH0efcIml3lSO1v1gnpdX/qJ233wmz9+dimsrpE7U4CtewMIrScGtq8qUejwLOp0LFgIjwzlt6te9BuVoBiQX5O8wCHdk+uinxaMBqHirOS2W8ihSIJXb+QiWcI4niq4LqEDjZrVul+DZsQ/gEyesLpgjDRKQ3WBnNQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAGE8tWxuB1rlSpewHYRmSO6OGGRBAqJRsWatJSYpE8IY+FAspIjCxNWW9fDqnTkV+Z8odmAX4QVgQZ6auAHFKzxeFA06UvpzDaVb80T0dGVBLiP6ajZiH+xboAOqjS+aUQqTYYgCPJZDJs4Kxa7l2OKek5P27OQIYdwflIozXnA/</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
