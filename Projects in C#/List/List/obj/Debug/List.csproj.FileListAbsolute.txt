@@ -1,0 +1,46 @@
+C:\Users\Faiq\source\repos\List\List\bin\Debug\List.exe.config
+C:\Users\Faiq\source\repos\List\List\bin\Debug\List.exe
+C:\Users\Faiq\source\repos\List\List\bin\Debug\List.pdb
+C:\Users\Faiq\source\repos\List\List\obj\Debug\List.csprojResolveAssemblyReference.cache
+C:\Users\Faiq\source\repos\List\List\obj\Debug\List.Form1.resources
+C:\Users\Faiq\source\repos\List\List\obj\Debug\List.Properties.Resources.resources
+C:\Users\Faiq\source\repos\List\List\obj\Debug\List.csproj.GenerateResource.Cache
+C:\Users\Faiq\source\repos\List\List\obj\Debug\List.csproj.CoreCompileInputs.cache
+C:\Users\Faiq\source\repos\List\List\obj\Debug\List.exe
+C:\Users\Faiq\source\repos\List\List\obj\Debug\List.pdb
+C:\Users\Faiq\Documents\Visual Studio 2017\Projects\List\List\bin\Debug\List.exe.config
+C:\Users\Faiq\Documents\Visual Studio 2017\Projects\List\List\bin\Debug\List.exe
+C:\Users\Faiq\Documents\Visual Studio 2017\Projects\List\List\bin\Debug\List.pdb
+C:\Users\Faiq\Documents\Visual Studio 2017\Projects\List\List\obj\Debug\List.Properties.Resources.resources
+C:\Users\Faiq\Documents\Visual Studio 2017\Projects\List\List\obj\Debug\List.csproj.GenerateResource.Cache
+C:\Users\Faiq\Documents\Visual Studio 2017\Projects\List\List\obj\Debug\List.csproj.CoreCompileInputs.cache
+C:\Users\Faiq\Documents\Visual Studio 2017\Projects\List\List\obj\Debug\List.exe
+C:\Users\Faiq\Documents\Visual Studio 2017\Projects\List\List\obj\Debug\List.pdb
+C:\Users\Faiq\Documents\Visual Studio 2017\Projects\List\List\obj\Debug\List.Makeup.resources
+C:\Users\Faiq\Documents\Visual Studio 2017\Projects\List\List\bin\Debug\List.exe.manifest
+C:\Users\Faiq\Documents\Visual Studio 2017\Projects\List\List\bin\Debug\List.application
+C:\Users\Faiq\Documents\Visual Studio 2017\Projects\List\List\obj\Debug\List.exe.manifest
+C:\Users\Faiq\Documents\Visual Studio 2017\Projects\List\List\obj\Debug\List.application
+C:\Users\Faiq\Documents\Visual Studio 2017\Projects\List\List\obj\Debug\List.Handbag.resources
+C:\Users\Faiq\Documents\Visual Studio 2017\Projects\List\List\obj\Debug\List.Jewelry.resources
+C:\Users\Faiq\Documents\Visual Studio 2017\Projects\List\List\obj\Debug\List.shoes.resources
+C:\Users\Faiq\Documents\Visual Studio 2017\Projects\List\List\obj\Debug\List.csprojResolveAssemblyReference.cache
+C:\Users\Faiq\Documents\Visual Studio 2017\Projects\List\List\obj\Debug\List.Change_Save_Location.resources
+C:\Users\faiqe\OneDrive\333020 H Drive backup\All\Documents\Visual Studio 2017\Projects\List\List\bin\Debug\List.exe.config
+C:\Users\faiqe\OneDrive\333020 H Drive backup\All\Documents\Visual Studio 2017\Projects\List\List\bin\Debug\List.exe.manifest
+C:\Users\faiqe\OneDrive\333020 H Drive backup\All\Documents\Visual Studio 2017\Projects\List\List\bin\Debug\List.application
+C:\Users\faiqe\OneDrive\333020 H Drive backup\All\Documents\Visual Studio 2017\Projects\List\List\bin\Debug\List.exe
+C:\Users\faiqe\OneDrive\333020 H Drive backup\All\Documents\Visual Studio 2017\Projects\List\List\bin\Debug\List.pdb
+C:\Users\faiqe\OneDrive\333020 H Drive backup\All\Documents\Visual Studio 2017\Projects\List\List\obj\Debug\List.csprojAssemblyReference.cache
+C:\Users\faiqe\OneDrive\333020 H Drive backup\All\Documents\Visual Studio 2017\Projects\List\List\obj\Debug\List.Change_Save_Location.resources
+C:\Users\faiqe\OneDrive\333020 H Drive backup\All\Documents\Visual Studio 2017\Projects\List\List\obj\Debug\List.Handbag.resources
+C:\Users\faiqe\OneDrive\333020 H Drive backup\All\Documents\Visual Studio 2017\Projects\List\List\obj\Debug\List.Jewelry.resources
+C:\Users\faiqe\OneDrive\333020 H Drive backup\All\Documents\Visual Studio 2017\Projects\List\List\obj\Debug\List.Makeup.resources
+C:\Users\faiqe\OneDrive\333020 H Drive backup\All\Documents\Visual Studio 2017\Projects\List\List\obj\Debug\List.Properties.Resources.resources
+C:\Users\faiqe\OneDrive\333020 H Drive backup\All\Documents\Visual Studio 2017\Projects\List\List\obj\Debug\List.shoes.resources
+C:\Users\faiqe\OneDrive\333020 H Drive backup\All\Documents\Visual Studio 2017\Projects\List\List\obj\Debug\List.csproj.GenerateResource.cache
+C:\Users\faiqe\OneDrive\333020 H Drive backup\All\Documents\Visual Studio 2017\Projects\List\List\obj\Debug\List.csproj.CoreCompileInputs.cache
+C:\Users\faiqe\OneDrive\333020 H Drive backup\All\Documents\Visual Studio 2017\Projects\List\List\obj\Debug\List.exe.manifest
+C:\Users\faiqe\OneDrive\333020 H Drive backup\All\Documents\Visual Studio 2017\Projects\List\List\obj\Debug\List.application
+C:\Users\faiqe\OneDrive\333020 H Drive backup\All\Documents\Visual Studio 2017\Projects\List\List\obj\Debug\List.exe
+C:\Users\faiqe\OneDrive\333020 H Drive backup\All\Documents\Visual Studio 2017\Projects\List\List\obj\Debug\List.pdb
