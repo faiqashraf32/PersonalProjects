@@ -5,6 +5,8 @@ class Logistics:
         print("HOOSIER SHIPPING COMPANY")
         origin = input("Please enter the destination (EVV, HUF, BMG, IND, LAF, GYY, SBN, FWA, JVY) >> ")
         destination = input("Please enter the destination (EVV, HUF, BMG, IND, LAF, GYY, SBN, FWA, JVY) >> ")
+        origin = origin.upper()
+        destination = destination.upper()
         # timeRecieved = input("Please enter the time the item was dropped off (e.g. 01:34pm) >> ")
         travelLog = ["Outbound from: " + str(origin), "\n"]
         self.origin = origin
