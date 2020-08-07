@@ -1,0 +1,45 @@
+# cut off times for recieving packages
+# algorithm would calculate overnight shipping times
+
+Time to drive a truck from origin to hub in indy airport (IND)
+
+Cites supported    | (TIME ZONE)  | time to IND via truck:
+-------------------|--------------|-----------------------
+- Evansville, IN   |  (CST)       |    2 hours 39 minutes
+- Gary, IN         |  (CST)       |    2 hours 29 minutes
+- Bloomington, IN  |  (EST)       |    1 hour  0 minutes
+- Indianapolis, IN |  (EST)       |    0 hours 0 minutes
+- Terra Haute, IN  |  (EST)       |    1 hour 5 minutes
+- Fort Wayne, IN   |  (EST)       |    2 hours 5 minutes
+- Lafayette, IN    |  (EST)       |    1 hour 13 minutes
+- South Bend, IN   |  (EST)       |    2 hours 38 minutes
+- New Albany, IN   |  (EST)       |    1 hours 43 minutes
+-------------------|--------------|-----------------------
+
+# For this company we have 5 trucks, so we must have a truck go to 
+# 2 places to pick up packages before coming to Indianapolis
+
+For each stop a truck makes, lets allot 45 min for loading the truck
+(TCE) = Time zone change from Central to Eastern Time
+
+ Truck          S1                    S2                S3            RAW TRAVEL TIME        TOTAL TRAVEL TIME NEEDED
+---------|------------------|--------------------|---------------|----------------------|--------------------------------| 
+TRUCK A  | Evansville       | (TCE) New Albany   | Indianapolis  |  (3 hour 31 minutes) |       (5 Hours 1 minute)
+TRUCK B  | Terra Haute      | Bloomington        | Indianapolis  |  (2 hour 4 min)      |       (3 Hours 34 minutes)
+TRUCK C  | Gary             | (TCE) Lafayette    | Indianapolis  |  (2 hour 53 min)     |       (4 Hours 23 minutes)
+TRUCK D  | South Bend       | Fort Wayne         | Indianapolis  |  (4 hour)            |       (5 Hours 30 minutes)
+TRUCK E  | backup/indy local
+
+-------------
+
+Truck Departure times (we want all packages in IND by 12:00am EST)
+Let s = stop, followed by a number (1,2,3)
+let s3 = Indianapolis
+
+ Truck      Depart S1      Arrive S2      Depart S2      Arrive S3
+---------|--------------|--------------|--------------|--------------|
+    A    |               |               |               |               |
+    B    |               |               |               |               |  
+    C    |               |               |               |               |
+    D    |               |               |               |               |
+    E    |               |               |               |               |  
