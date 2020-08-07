@@ -8,11 +8,11 @@ class Logistics:
         origin = origin.upper()
         destination = destination.upper()
         # timeRecieved = input("Please enter the time the item was dropped off (e.g. 01:34pm) >> ")
-        travelLog = ["Outbound from: " + str(origin), "\n"]
+        # travelLog = ["Outbound from: " + str(origin), "\n"]
         self.origin = origin
         self.destination = destination
         # self.timeRecieved = timeRecieved
-        self.travelLog = travelLog
+        # self.travelLog = travelLog
         a.route()
 
     def route(self):
